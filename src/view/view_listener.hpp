@@ -3,10 +3,7 @@
 
 class ViewListener
 {
-public:
-	virtual void userEnterAdd() = 0;
-	virtual void userEnterAddShow() = 0;
-	
+public:	
 	virtual void move_player_down() = 0;
 	virtual void move_player_up() = 0;
 	virtual void move_player_right() = 0;

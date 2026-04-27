@@ -16,10 +16,10 @@ private:
 
 public:
     Character() = default;
-    id_t Character(const pos_x_t x, const pos_y_t y, const speed_t s) : pos_x(x), pos_y(y), speed(s) {
+    Character(const pos_x_t x, const pos_y_t y, const speed_t s) : pos_x(x), pos_y(y), speed(s)
+    {
         static id_t id_index = 0;
         id_index++;
-        return id_index++;
     }
 
     void move_up();

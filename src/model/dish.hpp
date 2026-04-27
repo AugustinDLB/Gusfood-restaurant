@@ -24,7 +24,7 @@ public:
 
     name_t get_name() const { return name; }
 
-    enum steps;
+    // enum steps;
 
     virtual ~Dish() = default;
 
