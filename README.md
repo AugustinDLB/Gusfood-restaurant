@@ -26,7 +26,5 @@ There must be 1 000 other reasons, don't hesitate to notify me.
 
 ## How to compile ?
 
-The code currently does not compile.
-
-However, please install raylib to prepare yourself !
+## TODO
 
